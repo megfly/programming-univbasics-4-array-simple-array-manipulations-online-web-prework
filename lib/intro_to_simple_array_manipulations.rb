@@ -56,10 +56,8 @@ def using_flatten(array)
   instruments.flatten
 end
 
-def using_delete(instructors, no_offense_steven)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = "Steven"
-  new_list = instructors.delete(no_offense_steven)
+def using_delete(my_list, my_element)
+  my_list.delete(my_element)
 end
 
 def using_delete_at(famous_robots, integer)
